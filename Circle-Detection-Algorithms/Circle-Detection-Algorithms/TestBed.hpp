@@ -10,7 +10,7 @@
 #define TestBed_hpp
 
 #include <stdio.h>
-#include "Pharse.hpp"
+#include "Phrase.hpp"
 #include <opencv2/opencv.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>

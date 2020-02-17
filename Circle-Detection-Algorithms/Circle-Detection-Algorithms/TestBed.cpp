@@ -16,7 +16,7 @@ TestBed::TestBed(){
 }
 
 bool TestBed::preRun(){
-    Phase p;
+    Phrase p;
     totalImages = p.pharseAllImages();
     p.phaseImagesToRecord();
     this->imagesDir=p.getFileDir();

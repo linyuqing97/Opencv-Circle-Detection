@@ -6,10 +6,10 @@
 //  Copyright © 2020 Yuqing Lin. All rights reserved.
 //
 
-#include "Pharse.hpp"
+#include "Phrase.hpp"
 using namespace std;
 
-unsigned long Phase::pharseAllImages(){
+unsigned long Phrase::pharseAllImages(){
     cv::glob(this->path, this->fileNames,true); // fileNames stores all images directory
     for(int i = 1; i< fileNames.size();i++){
         string temp = removePrefix(fileNames[i]);
@@ -18,7 +18,7 @@ unsigned long Phase::pharseAllImages(){
     return images.size(); //return all images name in vector
 }
 
-std::string Phase:: removePrefix(const std::string& filename) {
+std::string Phrase:: removePrefix(const std::string& filename) {
     size_t lastPos=filename.find_last_of('/');
     if (lastPos == std::string::npos) return filename;
     string res = filename.substr(lastPos,filename.size());
@@ -26,13 +26,13 @@ std::string Phase:: removePrefix(const std::string& filename) {
     return res;
 }
 
-std::string Phase::fileDirToName(std::string s){
+std::string Phrase::fileDirToName(std::string s){
     std::size_t lastPosOfName = s.find_first_of('[');
     std::string imageName = s.substr(0,lastPosOfName);
     return imageName;
 }
 
-void Phase::phaseImagesToRecord(){
+void Phrase::phaseImagesToRecord(){
     for(int i = 0;i<this->images.size();i++){
         string s = this->images[i];
         unsigned long lastPosOfName = s.find_first_of('[');
@@ -56,7 +56,7 @@ void Phase::phaseImagesToRecord(){
         //std::cout<<"size of map:"<<imageRecord.size()<<std::endl;
     }
 }
-bool Phase::isDigits(char c){
+bool Phrase::isDigits(char c){
     if(c-'0'>=0 && c-'0'<=9){
         return true;
     }

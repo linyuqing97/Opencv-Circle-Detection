@@ -14,7 +14,7 @@
 #include <opencv2/opencv.hpp>
 
 
-class Phase{
+class Phrase{
 private:
     std::vector<std::string>fileNames; //Store files that glob by opencv with directory
     std::vector<std::string>images; //Store images' name after seprate file directory

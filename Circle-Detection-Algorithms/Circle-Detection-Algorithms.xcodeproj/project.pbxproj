@@ -42,7 +42,7 @@
 		8DE283A423F87844008678E2 /* libopencv_xobjdetect.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2839B23F87844008678E2 /* libopencv_xobjdetect.4.2.0.dylib */; };
 		8DE283A523F87844008678E2 /* libopencv_text.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2839C23F87844008678E2 /* libopencv_text.4.2.0.dylib */; };
 		8DE283A623F87844008678E2 /* libopencv_video.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2839D23F87844008678E2 /* libopencv_video.4.2.0.dylib */; };
-		8DE283A923F878FD008678E2 /* Pharse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DE283A723F878FD008678E2 /* Pharse.cpp */; };
+		8DE283A923F878FD008678E2 /* Phrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DE283A723F878FD008678E2 /* Phrase.cpp */; };
 		8DE283AD23F89B3A008678E2 /* TestBed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DE283AB23F89B3A008678E2 /* TestBed.cpp */; };
 /* End PBXBuildFile section */
 
@@ -95,8 +95,8 @@
 		8DE2839B23F87844008678E2 /* libopencv_xobjdetect.4.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xobjdetect.4.2.0.dylib; path = ../../../../../usr/local/Cellar/opencv/4.2.0_1/lib/libopencv_xobjdetect.4.2.0.dylib; sourceTree = "<group>"; };
 		8DE2839C23F87844008678E2 /* libopencv_text.4.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_text.4.2.0.dylib; path = ../../../../../usr/local/Cellar/opencv/4.2.0_1/lib/libopencv_text.4.2.0.dylib; sourceTree = "<group>"; };
 		8DE2839D23F87844008678E2 /* libopencv_video.4.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.4.2.0.dylib; path = ../../../../../usr/local/Cellar/opencv/4.2.0_1/lib/libopencv_video.4.2.0.dylib; sourceTree = "<group>"; };
-		8DE283A723F878FD008678E2 /* Pharse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pharse.cpp; sourceTree = "<group>"; };
-		8DE283A823F878FD008678E2 /* Pharse.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pharse.hpp; sourceTree = "<group>"; };
+		8DE283A723F878FD008678E2 /* Phrase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Phrase.cpp; sourceTree = "<group>"; };
+		8DE283A823F878FD008678E2 /* Phrase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Phrase.hpp; sourceTree = "<group>"; };
 		8DE283AB23F89B3A008678E2 /* TestBed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestBed.cpp; sourceTree = "<group>"; };
 		8DE283AC23F89B3A008678E2 /* TestBed.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestBed.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,8 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				8DE2835B23F79CBA008678E2 /* main.cpp */,
-				8DE283A723F878FD008678E2 /* Pharse.cpp */,
-				8DE283A823F878FD008678E2 /* Pharse.hpp */,
+				8DE283A723F878FD008678E2 /* Phrase.cpp */,
+				8DE283A823F878FD008678E2 /* Phrase.hpp */,
 				8DE283AB23F89B3A008678E2 /* TestBed.cpp */,
 				8DE283AC23F89B3A008678E2 /* TestBed.hpp */,
 			);
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE283AD23F89B3A008678E2 /* TestBed.cpp in Sources */,
-				8DE283A923F878FD008678E2 /* Pharse.cpp in Sources */,
+				8DE283A923F878FD008678E2 /* Phrase.cpp in Sources */,
 				8DE2835C23F79CBA008678E2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
