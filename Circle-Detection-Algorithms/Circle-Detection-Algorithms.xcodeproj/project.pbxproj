@@ -44,6 +44,7 @@
 		8DE283A623F87844008678E2 /* libopencv_video.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2839D23F87844008678E2 /* libopencv_video.4.2.0.dylib */; };
 		8DE283A923F878FD008678E2 /* Phrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DE283A723F878FD008678E2 /* Phrase.cpp */; };
 		8DE283AD23F89B3A008678E2 /* TestBed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DE283AB23F89B3A008678E2 /* TestBed.cpp */; };
+		8DEDF83323FF1B0A00B5C789 /* ChromaKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDF83123FF1B0A00B5C789 /* ChromaKey.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +100,8 @@
 		8DE283A823F878FD008678E2 /* Phrase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Phrase.hpp; sourceTree = "<group>"; };
 		8DE283AB23F89B3A008678E2 /* TestBed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestBed.cpp; sourceTree = "<group>"; };
 		8DE283AC23F89B3A008678E2 /* TestBed.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestBed.hpp; sourceTree = "<group>"; };
+		8DEDF83123FF1B0A00B5C789 /* ChromaKey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChromaKey.cpp; sourceTree = "<group>"; };
+		8DEDF83223FF1B0A00B5C789 /* ChromaKey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChromaKey.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				8DE283A823F878FD008678E2 /* Phrase.hpp */,
 				8DE283AB23F89B3A008678E2 /* TestBed.cpp */,
 				8DE283AC23F89B3A008678E2 /* TestBed.hpp */,
+				8DEDF83123FF1B0A00B5C789 /* ChromaKey.cpp */,
+				8DEDF83223FF1B0A00B5C789 /* ChromaKey.hpp */,
 			);
 			path = "Circle-Detection-Algorithms";
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE283AD23F89B3A008678E2 /* TestBed.cpp in Sources */,
+				8DEDF83323FF1B0A00B5C789 /* ChromaKey.cpp in Sources */,
 				8DE283A923F878FD008678E2 /* Phrase.cpp in Sources */,
 				8DE2835C23F79CBA008678E2 /* main.cpp in Sources */,
 			);
