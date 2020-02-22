@@ -102,7 +102,6 @@
 		8DE283AC23F89B3A008678E2 /* TestBed.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestBed.hpp; sourceTree = "<group>"; };
 		8DEDF83123FF1B0A00B5C789 /* ChromaKey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChromaKey.cpp; sourceTree = "<group>"; };
 		8DEDF83223FF1B0A00B5C789 /* ChromaKey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChromaKey.hpp; sourceTree = "<group>"; };
-		8DEDF8342401E05D00B5C789 /* result.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = result.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +177,6 @@
 				8DE283AC23F89B3A008678E2 /* TestBed.hpp */,
 				8DEDF83123FF1B0A00B5C789 /* ChromaKey.cpp */,
 				8DEDF83223FF1B0A00B5C789 /* ChromaKey.hpp */,
-				8DEDF8342401E05D00B5C789 /* result.txt */,
 			);
 			path = "Circle-Detection-Algorithms";
 			sourceTree = "<group>";
